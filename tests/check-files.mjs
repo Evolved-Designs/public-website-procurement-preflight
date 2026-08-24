@@ -12,4 +12,8 @@ assert.match(html, /section508\.gov\/buy\//);
 assert.match(html, /aria-live="polite"/);
 assert.match(styles, /prefers-reduced-motion/);
 
+const jsonLd = html.match(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/);
+assert.ok(jsonLd, 'WebApplication structured data is present');
+assert.equal(JSON.parse(jsonLd[1])['@type'], 'WebApplication');
+
 console.log('Static checks passed.');
