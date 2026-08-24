@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://evolved-designs.github.io/public-website-procurement-preflight/sitemap.xml

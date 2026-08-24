@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Public Website Procurement Preflight | Evolved Designs</title>
+  <meta name="description" content="A browser-private ten-decision check for public-service teams preparing a website solicitation or comparing implementation partners.">
+  <link rel="canonical" href="https://evolved-designs.github.io/public-website-procurement-preflight/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Public Website Procurement Preflight">
+  <meta property="og:description" content="Expose the ten decisions that make a public website brief easier to price, compare, and validate.">
+  <meta property="og:url" content="https://evolved-designs.github.io/public-website-procurement-preflight/">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Public Website Procurement Preflight">
+  <meta name="twitter:description" content="A browser-private readiness check for public website buyers.">
+  <link rel="stylesheet" href="styles.css">
+  <script type="module" src="app.js"></script>
+</head>
+<body>
+  <header class="masthead">
+    <div class="shell">
+      <a class="brand" href="https://evolveddesigns.net/?utm_source=github_pages&amp;utm_medium=owned_tool&amp;utm_campaign=procurement_preflight">Evolved Designs</a>
+      <p class="privacy-note">Browser-private: your selections never leave this page.</p>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero shell" aria-labelledby="page-title">
+      <p class="eyebrow">Public website buyer tool</p>
+      <h1 id="page-title">Make the hard decisions visible before proposals arrive.</h1>
+      <p class="lede">A ten-decision preflight for municipal, association, education, and public-service teams preparing a website solicitation. Use it to find the scope gaps that create incomparable bids, change orders, and weak acceptance tests.</p>
+    </section>
+
+    <section class="workspace shell" aria-label="Procurement readiness workspace">
+      <form class="panel checklist" data-preflight>
+        <h2>What is already decided?</h2>
+        <p>Select only what your team can show a prospective partner today.</p>
+
+        <label class="decision"><input type="checkbox" data-short="Priority journeys" data-gap="name the three resident or member tasks that must work first"><span><strong>Priority journeys</strong><small>The brief names the three public tasks that must become easier.</small></span></label>
+        <label class="decision"><input type="checkbox" data-short="Content ownership" data-gap="assign an owner and disposition for existing content"><span><strong>Content inventory and ownership</strong><small>Every major content group has an owner and a keep, revise, migrate, or retire decision.</small></span></label>
+        <label class="decision"><input type="checkbox" data-short="Accessibility" data-gap="define the accessibility standard, evidence, and acceptance test"><span><strong>Accessibility acceptance</strong><small>The solicitation states the applicable standard, required evidence, and who validates conformance.</small></span></label>
+        <label class="decision"><input type="checkbox" data-short="Integrations" data-gap="document each integration, system owner, and data direction"><span><strong>Integrations and data</strong><small>Forms, payments, search, calendars, identity, CRM, GIS, and other systems have named owners and data flows.</small></span></label>
+        <label class="decision"><input type="checkbox" data-short="Migration" data-gap="define migration volume, redirects, archives, and records boundaries"><span><strong>Migration and redirects</strong><small>The team knows what moves, what archives, and which URLs or records must remain reachable.</small></span></label>
+        <label class="decision"><input type="checkbox" data-short="Security and privacy" data-gap="identify security, privacy, retention, and incident responsibilities"><span><strong>Security and privacy</strong><small>Account, form, retention, hosting, monitoring, and incident responsibilities are explicit.</small></span></label>
+        <label class="decision"><input type="checkbox" data-short="Measurement" data-gap="capture the current baseline and define post-launch measures"><span><strong>Baseline and success measures</strong><small>The team has a current benchmark and knows which task, search, accessibility, and service outcomes will be checked.</small></span></label>
+        <label class="decision"><input type="checkbox" data-short="Governance" data-gap="assign decision, review, and publishing authority"><span><strong>Governance and approvals</strong><small>Decision makers, reviewers, publishers, and escalation paths are named.</small></span></label>
+        <label class="decision"><input type="checkbox" data-short="Budget and schedule" data-gap="separate the fixed constraints from the negotiable scope"><span><strong>Budget and schedule boundaries</strong><small>The brief distinguishes hard constraints, desired milestones, and scope that can be phased.</small></span></label>
+        <label class="decision"><input type="checkbox" data-short="Post-launch care" data-gap="define training, warranty, maintenance, and continuous-improvement ownership"><span><strong>Launch-to-care handoff</strong><small>Training, warranty, hosting, updates, support, measurement, and improvement have an owner after launch.</small></span></label>
+      </form>
+
+      <aside class="panel result" aria-live="polite">
+        <div class="result-top">
+          <p class="eyebrow">Readiness signal</p>
+          <strong class="score" data-score>0/10</strong>
+          <div class="meter" data-meter role="progressbar" aria-label="Procurement readiness" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"></div>
+        </div>
+        <div class="result-body">
+          <p class="status" data-status>Start with a discovery brief</p>
+          <p class="summary" data-summary></p>
+          <p class="next" data-next></p>
+          <div class="actions">
+            <button class="button secondary" type="button" data-copy>Copy brief summary</button>
+            <button class="button secondary" type="button" data-reset>Start over</button>
+            <a class="button" href="https://evolveddesigns.net/contact-us/?utm_source=github_pages&amp;utm_medium=owned_tool&amp;utm_campaign=procurement_preflight">Review the gaps with Evolved</a>
+          </div>
+        </div>
+      </aside>
+    </section>
+
+    <section class="panel sources shell" aria-labelledby="source-heading">
+      <h2 id="source-heading">Why these decisions appear here</h2>
+      <p>Current federal accessibility acquisition guidance treats accessibility as a procurement-lifecycle requirement: define it before release, request evidence from vendors, evaluate proposals, and validate contractor compliance after award. The DOJ's current state and local government guidance identifies WCAG 2.1 Level AA as the technical standard for covered web content and mobile apps.</p>
+      <ul>
+        <li><a href="https://www.ada.gov/resources/small-entity-compliance-guide/">ADA.gov: state and local government web accessibility compliance guide</a></li>
+        <li><a href="https://www.section508.gov/buy/">Section508.gov: buy accessible products and services</a></li>
+        <li><a href="https://www.section508.gov/buy/request-accessibility-information/">Section508.gov: request accessibility information from vendors</a></li>
+      </ul>
+      <p class="boundary">This planning aid is not legal advice, a compliance certification, or a substitute for counsel, an accessibility program manager, or independent acceptance testing.</p>
+    </section>
+  </main>
+
+  <footer><div class="shell">Built by Evolved Designs for teams buying public-facing web systems. No form, account, tracking script, or saved browser state is used.</div></footer>
+</body>
+</html>

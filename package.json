@@ -1,0 +1,9 @@
+{
+  "name": "public-website-procurement-preflight",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test",
+    "check": "node --test && node tests/check-files.mjs"
+  }
+}
