@@ -1,11 +1,11 @@
 export const readinessBands = Object.freeze([
   {
-    min: 9,
+    min: 10,
     label: 'Ready for vendor comparison',
     summary: 'Your brief exposes the decisions a capable partner needs to price, plan, and validate the work.'
   },
   {
-    min: 6,
+    min: 7,
     label: 'Scope the gaps before release',
     summary: 'The direction is visible, but unanswered requirements could widen estimates or create change orders.'
   },
@@ -16,8 +16,8 @@ export const readinessBands = Object.freeze([
   }
 ]);
 
-export function scoreReadiness(selected, total = 10) {
-  const safeTotal = Math.max(1, Number(total) || 10);
+export function scoreReadiness(selected, total = 11) {
+  const safeTotal = Math.max(1, Number(total) || 11);
   const safeSelected = Math.min(safeTotal, Math.max(0, Number(selected) || 0));
   const band = readinessBands.find((candidate) => safeSelected >= candidate.min) ?? readinessBands.at(-1);
 
@@ -27,6 +27,13 @@ export function scoreReadiness(selected, total = 10) {
     percentage: Math.round((safeSelected / safeTotal) * 100),
     ...band
   };
+}
+
+export function consultationCta(selected, total = 11) {
+  const { percentage } = scoreReadiness(selected, total);
+  if (percentage >= 85) return 'Compare implementation options with Evolved';
+  if (percentage >= 55) return 'Stress-test the brief with Evolved';
+  return 'Scope the first phase with Evolved';
 }
 
 function initPreflight() {
@@ -41,6 +48,7 @@ function initPreflight() {
   const meter = document.querySelector('[data-meter]');
   const copyButton = document.querySelector('[data-copy]');
   const resetButton = document.querySelector('[data-reset]');
+  const consult = document.querySelector('[data-consult]');
 
   function render() {
     const selected = checks.filter((item) => item.checked);
@@ -55,6 +63,7 @@ function initPreflight() {
       : 'Best next step: publish the acceptance matrix beside the solicitation.';
     meter.style.setProperty('--score', `${result.percentage}%`);
     meter.setAttribute('aria-valuenow', String(result.percentage));
+    consult.textContent = consultationCta(result.selected, result.total);
   }
 
   async function copySummary() {
