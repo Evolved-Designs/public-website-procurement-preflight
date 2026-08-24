@@ -1,11 +1,11 @@
 export const readinessBands = Object.freeze([
   {
-    min: 10,
+    min: 11,
     label: 'Ready for vendor comparison',
     summary: 'Your brief exposes the decisions a capable partner needs to price, plan, and validate the work.'
   },
   {
-    min: 7,
+    min: 8,
     label: 'Scope the gaps before release',
     summary: 'The direction is visible, but unanswered requirements could widen estimates or create change orders.'
   },
@@ -16,8 +16,8 @@ export const readinessBands = Object.freeze([
   }
 ]);
 
-export function scoreReadiness(selected, total = 11) {
-  const safeTotal = Math.max(1, Number(total) || 11);
+export function scoreReadiness(selected, total = 12) {
+  const safeTotal = Math.max(1, Number(total) || 12);
   const safeSelected = Math.min(safeTotal, Math.max(0, Number(selected) || 0));
   const band = readinessBands.find((candidate) => safeSelected >= candidate.min) ?? readinessBands.at(-1);
 
@@ -29,11 +29,18 @@ export function scoreReadiness(selected, total = 11) {
   };
 }
 
-export function consultationCta(selected, total = 11) {
+export function consultationCta(selected, total = 12) {
   const { percentage } = scoreReadiness(selected, total);
   if (percentage >= 85) return 'Compare implementation options with Evolved';
   if (percentage >= 55) return 'Stress-test the brief with Evolved';
   return 'Scope the first phase with Evolved';
+}
+
+export function consultationBand(selected, total = 12) {
+  const { percentage } = scoreReadiness(selected, total);
+  if (percentage >= 85) return 'vendor_ready';
+  if (percentage >= 55) return 'scope_gaps';
+  return 'discovery';
 }
 
 function initPreflight() {
@@ -64,6 +71,12 @@ function initPreflight() {
     meter.style.setProperty('--score', `${result.percentage}%`);
     meter.setAttribute('aria-valuenow', String(result.percentage));
     consult.textContent = consultationCta(result.selected, result.total);
+    const consultUrl = new URL('https://evolveddesigns.net/contact-us/');
+    consultUrl.searchParams.set('utm_source', 'github_pages');
+    consultUrl.searchParams.set('utm_medium', 'owned_tool');
+    consultUrl.searchParams.set('utm_campaign', 'procurement_preflight');
+    consultUrl.searchParams.set('utm_content', `readiness_${consultationBand(result.selected, result.total)}`);
+    consult.href = consultUrl.toString();
   }
 
   async function copySummary() {
