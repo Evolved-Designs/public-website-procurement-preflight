@@ -1,10 +1,8 @@
 # Public Website Procurement Preflight
 
-A browser-private 12-decision check for public-service teams preparing, routing, or evaluating a website solicitation.
+A preserved browser-private decision check for public-service teams preparing, routing, or evaluating a website solicitation.
 
-The tool stores nothing. It is grounded in current official accessibility-acquisition and municipal-procurement evidence. If a visitor chooses the Evolved Designs contact path, the link carries only a broad readiness band.
-
-[Use the live preflight](https://evolved-designs.github.io/public-website-procurement-preflight/)
+The public deployment is retired without a replacement. This repository remains only as historical source and stores nothing.
 
 ## Sources
 

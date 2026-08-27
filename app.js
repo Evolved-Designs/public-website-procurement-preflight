@@ -72,7 +72,7 @@ function initPreflight() {
     meter.setAttribute('aria-valuenow', String(result.percentage));
     consult.textContent = consultationCta(result.selected, result.total);
     const consultUrl = new URL('https://evolveddesigns.net/contact-us/');
-    consultUrl.searchParams.set('utm_source', 'github_pages');
+    consultUrl.searchParams.set('utm_source', 'github');
     consultUrl.searchParams.set('utm_medium', 'owned_tool');
     consultUrl.searchParams.set('utm_campaign', 'procurement_preflight');
     consultUrl.searchParams.set('utm_content', `readiness_${consultationBand(result.selected, result.total)}`);
