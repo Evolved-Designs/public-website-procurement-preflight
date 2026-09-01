@@ -4,6 +4,10 @@ A preserved browser-private decision check for public-service teams preparing, r
 
 The public deployment is retired without a replacement. This repository remains only as historical source and stores nothing.
 
+## Current planning resource
+
+Use the public [Website RFP Requirements Checklist](WEBSITE-RFP-REQUIREMENTS-CHECKLIST.md) to define measurable requirements and acceptance evidence across scope, accessibility, privacy, security, performance, migration, ownership, delivery, and post-launch support.
+
 ## Sources
 
 - [ADA.gov small-entity compliance guide](https://www.ada.gov/resources/small-entity-compliance-guide/)
