@@ -42,6 +42,11 @@ assert.match(migrationEstimator, /archives\.gov\/records-mgmt\/policy\/managing-
 assert.match(migrationTool, /finitePopulationSample/);
 assert.match(buyerKit, /## Pick the decision you need to make now/);
 assert.match(buyerKit, /## Build one traceable evidence chain/);
+assert.match(buyerKit, /## Run a response-readiness gate before release/);
+assert.match(buyerKit, /mandatory response rows ready \/ mandatory response rows total/);
+assert.match(buyerKit, /Eligibility and authority/);
+assert.match(buyerKit, /References and permissions/);
+assert.match(buyerKit, /Contract readiness/);
 assert.match(buyerKit, /## Run the six-stage buying loop/);
 assert.match(buyerKit, /WEBSITE-RFP-REQUIREMENTS-CHECKLIST\.md/);
 assert.match(buyerKit, /WEBSITE-VENDOR-EVALUATION-SCORECARD\.md/);

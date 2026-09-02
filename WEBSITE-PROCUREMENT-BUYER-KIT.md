@@ -43,6 +43,24 @@ Create one row per material requirement and keep the same identifier from market
 
 This chain prevents three expensive breaks: asking vendors for evidence that is never evaluated, scoring promises that never become contract deliverables, and accepting a launch without the proof named in the solicitation.
 
+## Run a response-readiness gate before release
+
+A solicitation can be clear about the work and still be difficult for a qualified supplier to answer truthfully. Before release, test every mandatory response item against the same seven-row gate. This does not lower the standard; it makes the standard visible early enough for buyers to clarify it and for offerors to make an evidence-based bid/no-bid decision.
+
+| Gate | Buyer records before release | Offeror is asked to supply |
+| --- | --- | --- |
+| Eligibility and authority | Eligible entity types, locations, registrations, partner rules, portal steps, and who may sign or submit | Legal entity, required registrations, disclosed partners, and named submission authority |
+| Comparable work | What “comparable” means by sector, platform, scale, date, outcome, and evidence format | Only work the offeror performed and is authorized to describe; role, scope, dates, scale, outcome, and live or archived evidence |
+| References and permissions | Number, relevance, contact fields, permitted substitutes, and whether the buyer may contact them | Reference relationship, project scope and dates, contact details, and permission to disclose and contact |
+| Named team and capacity | Required roles, location or availability constraints, evaluation method, substitutions, and delivery dates | Named people, relevant role evidence, allocation, availability, accountable lead, and approved specialist or subcontractor relationships |
+| Delivery method and acceptance | Required discovery, migration, accessibility, security, analytics, training, support, and acceptance artifacts | A sequenced method tied to requirement IDs, owners, checkpoints, test evidence, correction windows, and handoff |
+| Price and assumptions | Pricing format, ceiling or range when publishable, optional work, taxes, expenses, rate rules, and comparison method | Authorized price, hours or units where requested, dependencies, exclusions, optional items, and change assumptions |
+| Contract readiness | Material insurance, warranty, ownership, licensing, data, security, records, accessibility, indemnity, and subcontracting terms | Exceptions or acceptance, required certificates, ownership and license treatment, data handling, warranty/support position, and authorized contracting contact |
+
+For each row, mark `ready`, `clarification needed`, or `not applicable`, name one owner, and set a resolution date. If a mandatory item has no defined evaluation use, no proportional evidence format, or no owner who can answer questions, repair the solicitation before release. If an offeror cannot substantiate a mandatory item, it should record the gap instead of estimating an example, reference, credential, price, or authority.
+
+This gate creates one useful pre-release measurement: `mandatory response rows ready / mandatory response rows total`. Preserve the count at release, after addenda, and at evaluation kickoff. A rising count shows that questions and addenda removed ambiguity; an unchanged low count warns that proposal volume may fall without improving evidence quality.
+
 ## Run the six-stage buying loop
 
 ### 1. Define the need
@@ -79,6 +97,7 @@ The Section 508 acquisition guidance uses a similar pre-award, award, and post-a
 - AI-search work promises rankings, citations, or inclusion that no vendor controls.
 - Evaluation weights do not match the information requested from offerors.
 - The winning proposal can score well without naming the people who will perform the work.
+- Mandatory examples, references, prices, registrations, or signatures are requested without defining acceptable evidence or allowing time for clarification.
 - Acceptance depends on “client satisfaction” instead of observable evidence and thresholds.
 - Ownership, export, credential transfer, source access, licenses, records, and transition support are deferred until termination.
 

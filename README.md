@@ -6,7 +6,7 @@ The public deployment is retired without a replacement. This repository remains 
 
 ## Current planning resource
 
-Start with the [Website Procurement Buyer Kit](WEBSITE-PROCUREMENT-BUYER-KIT.md) when you need a single route from early market research through requirements, evaluation, acceptance, and operational handoff. It maps each decision stage to the focused tools below and preserves one traceable evidence chain.
+Start with the [Website Procurement Buyer Kit](WEBSITE-PROCUREMENT-BUYER-KIT.md) when you need a single route from early market research through requirements, response readiness, evaluation, acceptance, and operational handoff. It maps each decision stage to the focused tools below, preserves one traceable evidence chain, and adds a seven-gate check for evidence, staffing, pricing, contracting, and submission authority before release.
 
 Use the public [Website RFP Requirements Checklist](WEBSITE-RFP-REQUIREMENTS-CHECKLIST.md) to define measurable requirements and acceptance evidence across scope, accessibility, privacy, security, performance, migration, ownership, delivery, and post-launch support.
 
