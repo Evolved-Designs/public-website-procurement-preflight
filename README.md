@@ -24,12 +24,12 @@ When a local service business already has a working booking, ordering, or member
 
 When a renovation, expansion, move, or phased opening changes visitor information, use the [Capital Project Website Update Brief](CAPITAL-PROJECT-WEBSITE-UPDATE-BRIEF.md) to map owner-approved facts, publish dated milestones and operational impacts, preserve working registration or account systems, measure freshness separately from outcomes, and record the next review and rollback evidence.
 
+For a new apartment community, phased opening, management transition, or material availability-feed change, use the [Multifamily Lease-Up Website and Listing-Feed Handoff Checklist](MULTIFAMILY-LEASE-UP-WEBSITE-AND-LISTING-FEED-HANDOFF-CHECKLIST.md) to assign fact owners, reconcile the property site with its designated inventory system, test prospect and resident journeys, separate discovery from confirmed leasing outcomes, and preserve privacy, accessibility, release, and rollback evidence without replacing a working property-management platform.
+
 ## Sources
 
 - [ADA.gov small-entity compliance guide](https://www.ada.gov/resources/small-entity-compliance-guide/)
 - [Section508.gov: Buy Accessible Products and Services](https://www.section508.gov/buy/)
 - [Section508.gov: Request Accessibility Information from Vendors](https://www.section508.gov/buy/request-accessibility-information/)
 - [Montgomery County, Virginia: RFP 27-05](https://montva.com/docs/default-source/purchasing-solicitations/2027/27-05_rfp_economic-development-website-redesign.pdf?sfvrsn=745244d0_2)
-
-
 
