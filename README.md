@@ -8,6 +8,18 @@ The public deployment is retired without a replacement. This repository remains 
 
 Before a pitch final, expansion-grant review, or public growth announcement, use the [Business Pitch-to-Website Proof Card](BUSINESS-PITCH-TO-WEBSITE-PROOF-CARD.md) to map ten public claims to owner-approved evidence and working visitor paths, test three synthetic journeys across mobile, desktop, and keyboard, pass six release gates, and keep discovery, action starts, verified completions, and qualified responses separate.
 
+
+## Choose a starting point
+
+- Launching, moving, expanding, or rebranding a local business: [Local Business Launch and Rebrand Rollout Checklist](LOCAL-BUSINESS-LAUNCH-REBRAND-ROLLOUT-CHECKLIST.md)
+- Reconciling a website with booking, ordering, or inquiry operations: [Service Website Operations Parity Checklist](SERVICE-WEBSITE-OPERATIONS-PARITY-CHECKLIST.md)
+- Opening a venue or changing galleries and inquiry routing: [Venue Website Inquiry-Routing QA Card](VENUE-WEBSITE-INQUIRY-ROUTING-QA-CARD.md)
+- Preparing a multifamily lease-up or listing-feed handoff: [Multifamily Lease-Up Website and Listing-Feed Handoff Checklist](MULTIFAMILY-LEASE-UP-WEBSITE-AND-LISTING-FEED-HANDOFF-CHECKLIST.md)
+- Publishing renovation, expansion, move, or phased-opening updates: [Capital Project Website Update Brief](CAPITAL-PROJECT-WEBSITE-UPDATE-BRIEF.md)
+- Preparing or evaluating a website solicitation: [Website Procurement Buyer Kit](WEBSITE-PROCUREMENT-BUYER-KIT.md)
+
+Need implementation help? Evolved Designs provides Waxahachie-focused website planning, integration, accessibility, local content, optimization, and support. [Review local web services](https://evolveddesigns.net/local-web-services/?utm_source=github&utm_medium=reference&utm_campaign=public_preflight_hub).
+
 ### Time-sensitive Texas solar resource
 
 Texas residential solar retailer and salesperson registration requirements entered a new phase on September 1, 2026. Use the [Texas Residential Solar Web and Sales Handoff Readiness Checklist](TEXAS-RESIDENTIAL-SOLAR-WEB-AND-SALES-HANDOFF-READINESS-CHECKLIST.md) to assign legal and operational owners, reconcile 16 approved facts across the public site and sales workflow, test protected handoffs with synthetic data, and preserve release and rollback evidence. It records TDLR's temporary enforcement note for two administrative rules without treating that note as a general suspension or offering legal advice.
