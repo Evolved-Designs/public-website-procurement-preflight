@@ -6,6 +6,10 @@ The public deployment is retired without a replacement. This repository remains 
 
 ## Current planning resource
 
+### Time-sensitive Texas solar resource
+
+Texas residential solar retailer and salesperson registration requirements entered a new phase on September 1, 2026. Use the [Texas Residential Solar Web and Sales Handoff Readiness Checklist](TEXAS-RESIDENTIAL-SOLAR-WEB-AND-SALES-HANDOFF-READINESS-CHECKLIST.md) to assign legal and operational owners, reconcile 16 approved facts across the public site and sales workflow, test protected handoffs with synthetic data, and preserve release and rollback evidence. It records TDLR's temporary enforcement note for two administrative rules without treating that note as a general suspension or offering legal advice.
+
 Start with the [Website Procurement Buyer Kit](WEBSITE-PROCUREMENT-BUYER-KIT.md) when you need a single route from early market research through requirements, response readiness, evaluation, acceptance, and operational handoff. It maps each decision stage to the focused tools below, preserves one traceable evidence chain, and adds a seven-gate check for evidence, staffing, pricing, contracting, and submission authority before release.
 
 Use the public [Website RFP Requirements Checklist](WEBSITE-RFP-REQUIREMENTS-CHECKLIST.md) to define measurable requirements and acceptance evidence across scope, accessibility, privacy, security, performance, migration, ownership, delivery, and post-launch support.
@@ -32,4 +36,7 @@ For a new apartment community, phased opening, management transition, or materia
 - [Section508.gov: Buy Accessible Products and Services](https://www.section508.gov/buy/)
 - [Section508.gov: Request Accessibility Information from Vendors](https://www.section508.gov/buy/request-accessibility-information/)
 - [Montgomery County, Virginia: RFP 27-05](https://montva.com/docs/default-source/purchasing-solicitations/2027/27-05_rfp_economic-development-website-redesign.pdf?sfvrsn=745244d0_2)
+- [TDLR Residential Solar Retailers program](https://www.tdlr.texas.gov/residential-solar-retailers/)
+- [TDLR August 21, 2026 residential solar program update](https://www.tdlr.texas.gov/news/2026/08/21/update-on-residential-solar-retailers-program/)
+- [Texas Register adopted residential solar rules](https://www.sos.texas.gov/texreg/archive/June262026/Adopted%20Rules/16.ECONOMIC%20REGULATION.html)
 
