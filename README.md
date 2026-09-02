@@ -6,6 +6,8 @@ The public deployment is retired without a replacement. This repository remains 
 
 ## Current planning resource
 
+Before a pitch final, expansion-grant review, or public growth announcement, use the [Business Pitch-to-Website Proof Card](BUSINESS-PITCH-TO-WEBSITE-PROOF-CARD.md) to map ten public claims to owner-approved evidence and working visitor paths, test three synthetic journeys across mobile, desktop, and keyboard, pass six release gates, and keep discovery, action starts, verified completions, and qualified responses separate.
+
 ### Time-sensitive Texas solar resource
 
 Texas residential solar retailer and salesperson registration requirements entered a new phase on September 1, 2026. Use the [Texas Residential Solar Web and Sales Handoff Readiness Checklist](TEXAS-RESIDENTIAL-SOLAR-WEB-AND-SALES-HANDOFF-READINESS-CHECKLIST.md) to assign legal and operational owners, reconcile 16 approved facts across the public site and sales workflow, test protected handoffs with synthetic data, and preserve release and rollback evidence. It records TDLR's temporary enforcement note for two administrative rules without treating that note as a general suspension or offering legal advice.

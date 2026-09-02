@@ -12,6 +12,7 @@ const operationsParity = await readFile(new URL('../SERVICE-WEBSITE-OPERATIONS-P
 const discoveryBookingCard = await readFile(new URL('../LOCAL-SERVICE-DISCOVERY-TO-BOOKING-MEASUREMENT-CARD.md', import.meta.url), 'utf8');
 const capitalProjectUpdateBrief = await readFile(new URL('../CAPITAL-PROJECT-WEBSITE-UPDATE-BRIEF.md', import.meta.url), 'utf8');
 const texasSolarHandoff = await readFile(new URL('../TEXAS-RESIDENTIAL-SOLAR-WEB-AND-SALES-HANDOFF-READINESS-CHECKLIST.md', import.meta.url), 'utf8');
+const businessPitchProofCard = await readFile(new URL('../BUSINESS-PITCH-TO-WEBSITE-PROOF-CARD.md', import.meta.url), 'utf8');
 const migrationTool = await readFile(new URL('../tools/migration-scope-estimator.mjs', import.meta.url), 'utf8');
 
 assert.match(html, /<h1[^>]*>Make the hard decisions visible/);
@@ -43,6 +44,7 @@ assert.match(readme, /Service Website Operations Parity Checklist/);
 assert.match(readme, /Local Service Discovery-to-Booking Measurement Card/);
 assert.match(readme, /Capital Project Website Update Brief/);
 assert.match(readme, /Texas Residential Solar Web and Sales Handoff Readiness Checklist/);
+assert.match(readme, /Business Pitch-to-Website Proof Card/);
 assert.match(migrationEstimator, /full-population automated checks/);
 assert.match(migrationEstimator, /utm_campaign=large_site_migration_estimator/);
 assert.match(migrationEstimator, /developers\.google\.com\/search\/docs\/crawling-indexing\/site-move-with-url-changes/);
@@ -86,6 +88,10 @@ assert.match(texasSolarHandoff, /not legal advice or a compliance certification/
 assert.match(texasSolarHandoff, /tdlr\.texas\.gov\/residential-solar-retailers\/effect\.htm/);
 assert.match(texasSolarHandoff, /sos\.texas\.gov\/texreg\/archive\/June262026\/Adopted%20Rules\/16\.ECONOMIC%20REGULATION\.html/);
 assert.match(texasSolarHandoff, /utm_campaign=texas_solar_web_sales_handoff/);
+assert.match(businessPitchProofCard, /Claim parity rate = matching applicable claims \/ applicable claims x 100/);
+assert.match(businessPitchProofCard, /Decision-path completion rate = passed applicable journey-device checks \/ applicable journey-device checks x 100/);
+assert.match(businessPitchProofCard, /did not identify the finalists/);
+assert.match(businessPitchProofCard, /utm_campaign=business_pitch_website_proof_card/);
 
 const jsonLd = html.match(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/);
 assert.ok(jsonLd, 'WebApplication structured data is present');
