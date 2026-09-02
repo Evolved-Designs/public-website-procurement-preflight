@@ -32,6 +32,8 @@ When a renovation, expansion, move, or phased opening changes visitor informatio
 
 For a new apartment community, phased opening, management transition, or material availability-feed change, use the [Multifamily Lease-Up Website and Listing-Feed Handoff Checklist](MULTIFAMILY-LEASE-UP-WEBSITE-AND-LISTING-FEED-HANDOFF-CHECKLIST.md) to assign fact owners, reconcile the property site with its designated inventory system, test prospect and resident journeys, separate discovery from confirmed leasing outcomes, and preserve privacy, accessibility, release, and rollback evidence without replacing a working property-management platform.
 
+After a venue opens, adds a space, refreshes its galleries, or changes its inquiry workflow, use the [Venue Website Inquiry-Routing QA Card](VENUE-WEBSITE-INQUIRY-ROUTING-QA-CARD.md) to reconcile public proof with gallery labels, carry the selected space into the inquiry record, test mobile and keyboard journeys, separate inquiry starts from verified outcomes, and preserve consent and rollback evidence without replacing a working booking system.
+
 ## Sources
 
 - [ADA.gov small-entity compliance guide](https://www.ada.gov/resources/small-entity-compliance-guide/)
@@ -41,4 +43,5 @@ For a new apartment community, phased opening, management transition, or materia
 - [TDLR Residential Solar Retailers program](https://www.tdlr.texas.gov/residential-solar-retailers/)
 - [TDLR August 21, 2026 residential solar program update](https://www.tdlr.texas.gov/news/2026/08/21/update-on-residential-solar-retailers-program/)
 - [Texas Register adopted residential solar rules](https://www.sos.texas.gov/texreg/archive/June262026/Adopted%20Rules/16.ECONOMIC%20REGULATION.html)
+
 
