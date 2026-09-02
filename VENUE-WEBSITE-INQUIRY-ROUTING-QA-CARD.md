@@ -67,10 +67,15 @@ Use counts that the venue can verify without exposing personal data:
 
 Compare a dated baseline with a dated post-release window. Do not claim that a website change caused revenue unless the venue's authorized systems can trace the outcome.
 
+## Turn the findings into a bounded fix
+
+If you want independent help converting the completed card into owner-approved copy, gallery, form-routing, accessibility, or measurement changes, [Evolved Designs offers local website implementation and optimization support](https://evolveddesigns.net/local-web-services/?utm_source=github&utm_medium=reference&utm_campaign=venue_inquiry_routing_qa&utm_content=implementation_support). Keep the existing booking stack when it works, agree on the evidence and rollback plan before release, and measure verified handoffs rather than clicks alone.
+
 ## Preserve the evidence
 
 Save the source URLs, capture dates, screenshots or hashes, tested viewport/input combinations, form version, routing destination, release reference, rollback reference, results, owner, and next review date.
 
 Shareable source: [Venue Website Inquiry-Routing QA Card](https://github.com/Evolved-Designs/public-website-procurement-preflight/blob/main/VENUE-WEBSITE-INQUIRY-ROUTING-QA-CARD.md?utm_source=github&utm_medium=reference&utm_campaign=venue_inquiry_routing_qa)
+
 
 
