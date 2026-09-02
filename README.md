@@ -16,6 +16,8 @@ For an AEO, GEO, or AI-search visibility procurement, use the [AI Search Program
 
 Before pricing a large content move, use the [Large Website Migration Scope Estimator](LARGE-WEBSITE-MIGRATION-SCOPE-ESTIMATOR.md) to inventory pages, documents, structured records, and media; calculate a transparent manual acceptance sample; score migration risk separately from volume; and require full-population automated evidence for deterministic checks.
 
+After a location, team, service, price, policy, or platform change, use the [Service Website Operations Parity Checklist](SERVICE-WEBSITE-OPERATIONS-PARITY-CHECKLIST.md) to compare the owned site with its booking, ordering, or inquiry system; identify material conflicts; test the visitor handoff; and assign measurable corrections without overstating clicks as completed transactions.
+
 ## Sources
 
 - [ADA.gov small-entity compliance guide](https://www.ada.gov/resources/small-entity-compliance-guide/)

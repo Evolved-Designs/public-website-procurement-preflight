@@ -8,6 +8,7 @@ const scorecard = await readFile(new URL('../WEBSITE-VENDOR-EVALUATION-SCORECARD
 const aiSearchChecklist = await readFile(new URL('../AI-SEARCH-PROGRAM-RFP-REQUIREMENTS-CHECKLIST.md', import.meta.url), 'utf8');
 const migrationEstimator = await readFile(new URL('../LARGE-WEBSITE-MIGRATION-SCOPE-ESTIMATOR.md', import.meta.url), 'utf8');
 const buyerKit = await readFile(new URL('../WEBSITE-PROCUREMENT-BUYER-KIT.md', import.meta.url), 'utf8');
+const operationsParity = await readFile(new URL('../SERVICE-WEBSITE-OPERATIONS-PARITY-CHECKLIST.md', import.meta.url), 'utf8');
 const migrationTool = await readFile(new URL('../tools/migration-scope-estimator.mjs', import.meta.url), 'utf8');
 
 assert.match(html, /<h1[^>]*>Make the hard decisions visible/);
@@ -35,6 +36,7 @@ assert.match(aiSearchChecklist, /txsmartbuy\.gov\/esbd\/754-TXST-2026-RFP-512-VP
 assert.match(aiSearchChecklist, /utm_campaign=ai_search_rfp_checklist/);
 assert.match(readme, /Large Website Migration Scope Estimator/);
 assert.match(readme, /Website Procurement Buyer Kit/);
+assert.match(readme, /Service Website Operations Parity Checklist/);
 assert.match(migrationEstimator, /full-population automated checks/);
 assert.match(migrationEstimator, /utm_campaign=large_site_migration_estimator/);
 assert.match(migrationEstimator, /developers\.google\.com\/search\/docs\/crawling-indexing\/site-move-with-url-changes/);
@@ -55,6 +57,12 @@ assert.match(buyerKit, /LARGE-WEBSITE-MIGRATION-SCOPE-ESTIMATOR\.md/);
 assert.match(buyerKit, /acquisition\.gov\/far\/part-10/);
 assert.match(buyerKit, /section508\.gov\/buy\//);
 assert.match(buyerKit, /utm_campaign=website_procurement_buyer_kit/);
+assert.match(operationsParity, /## Run the 12-field parity check/);
+assert.match(operationsParity, /parity rate = matching applicable fields \/ applicable fields × 100/);
+assert.match(operationsParity, /Do not label a booking-link click as a completed booking/);
+assert.match(operationsParity, /developers\.google\.com\/search\/docs\/appearance\/structured-data\/local-business/);
+assert.match(operationsParity, /w3\.org\/WAI\/tutorials\/forms\/instructions/);
+assert.match(operationsParity, /utm_campaign=service_website_operations_parity_checklist/);
 
 const jsonLd = html.match(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/);
 assert.ok(jsonLd, 'WebApplication structured data is present');
