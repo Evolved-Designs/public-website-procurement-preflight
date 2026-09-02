@@ -12,6 +12,8 @@ After proposals arrive, use the [Website Vendor Evaluation Scorecard](WEBSITE-VE
 
 For an AEO, GEO, or AI-search visibility procurement, use the [AI Search Program RFP Requirements Checklist](AI-SEARCH-PROGRAM-RFP-REQUIREMENTS-CHECKLIST.md) to define reproducible baselines, platform-specific controls, accuracy governance, accessible implementation, auditable metrics, vendor evidence, and exit rights without accepting guaranteed-placement claims.
 
+Before pricing a large content move, use the [Large Website Migration Scope Estimator](LARGE-WEBSITE-MIGRATION-SCOPE-ESTIMATOR.md) to inventory pages, documents, structured records, and media; calculate a transparent manual acceptance sample; score migration risk separately from volume; and require full-population automated evidence for deterministic checks.
+
 ## Sources
 
 - [ADA.gov small-entity compliance guide](https://www.ada.gov/resources/small-entity-compliance-guide/)

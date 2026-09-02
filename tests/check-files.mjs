@@ -6,6 +6,8 @@ const styles = await readFile(new URL('../styles.css', import.meta.url), 'utf8')
 const readme = await readFile(new URL('../README.md', import.meta.url), 'utf8');
 const scorecard = await readFile(new URL('../WEBSITE-VENDOR-EVALUATION-SCORECARD.md', import.meta.url), 'utf8');
 const aiSearchChecklist = await readFile(new URL('../AI-SEARCH-PROGRAM-RFP-REQUIREMENTS-CHECKLIST.md', import.meta.url), 'utf8');
+const migrationEstimator = await readFile(new URL('../LARGE-WEBSITE-MIGRATION-SCOPE-ESTIMATOR.md', import.meta.url), 'utf8');
+const migrationTool = await readFile(new URL('../tools/migration-scope-estimator.mjs', import.meta.url), 'utf8');
 
 assert.match(html, /<h1[^>]*>Make the hard decisions visible/);
 assert.equal((html.match(/<link rel="canonical"/g) ?? []).length, 1);
@@ -30,6 +32,12 @@ assert.match(aiSearchChecklist, /OAI-SearchBot/);
 assert.match(aiSearchChecklist, /no ranking, citation, or inclusion guarantee/);
 assert.match(aiSearchChecklist, /txsmartbuy\.gov\/esbd\/754-TXST-2026-RFP-512-VPMkCom/);
 assert.match(aiSearchChecklist, /utm_campaign=ai_search_rfp_checklist/);
+assert.match(readme, /Large Website Migration Scope Estimator/);
+assert.match(migrationEstimator, /full-population automated checks/);
+assert.match(migrationEstimator, /utm_campaign=large_site_migration_estimator/);
+assert.match(migrationEstimator, /developers\.google\.com\/search\/docs\/crawling-indexing\/site-move-with-url-changes/);
+assert.match(migrationEstimator, /archives\.gov\/records-mgmt\/policy\/managing-web-records\.html/);
+assert.match(migrationTool, /finitePopulationSample/);
 
 const jsonLd = html.match(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/);
 assert.ok(jsonLd, 'WebApplication structured data is present');
