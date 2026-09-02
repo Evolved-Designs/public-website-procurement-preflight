@@ -10,6 +10,7 @@ const migrationEstimator = await readFile(new URL('../LARGE-WEBSITE-MIGRATION-SC
 const buyerKit = await readFile(new URL('../WEBSITE-PROCUREMENT-BUYER-KIT.md', import.meta.url), 'utf8');
 const operationsParity = await readFile(new URL('../SERVICE-WEBSITE-OPERATIONS-PARITY-CHECKLIST.md', import.meta.url), 'utf8');
 const discoveryBookingCard = await readFile(new URL('../LOCAL-SERVICE-DISCOVERY-TO-BOOKING-MEASUREMENT-CARD.md', import.meta.url), 'utf8');
+const capitalProjectUpdateBrief = await readFile(new URL('../CAPITAL-PROJECT-WEBSITE-UPDATE-BRIEF.md', import.meta.url), 'utf8');
 const migrationTool = await readFile(new URL('../tools/migration-scope-estimator.mjs', import.meta.url), 'utf8');
 
 assert.match(html, /<h1[^>]*>Make the hard decisions visible/);
@@ -39,6 +40,7 @@ assert.match(readme, /Large Website Migration Scope Estimator/);
 assert.match(readme, /Website Procurement Buyer Kit/);
 assert.match(readme, /Service Website Operations Parity Checklist/);
 assert.match(readme, /Local Service Discovery-to-Booking Measurement Card/);
+assert.match(readme, /Capital Project Website Update Brief/);
 assert.match(migrationEstimator, /full-population automated checks/);
 assert.match(migrationEstimator, /utm_campaign=large_site_migration_estimator/);
 assert.match(migrationEstimator, /developers\.google\.com\/search\/docs\/crawling-indexing\/site-move-with-url-changes/);
@@ -69,6 +71,10 @@ assert.match(discoveryBookingCard, /source-and-ownership map/i);
 assert.match(discoveryBookingCard, /Do not call an outbound click a booking/);
 assert.match(discoveryBookingCard, /Release with rollback evidence/);
 assert.match(discoveryBookingCard, /utm_campaign=local_discovery_booking_handoff/);
+assert.match(capitalProjectUpdateBrief, /Copy this public update/);
+assert.match(capitalProjectUpdateBrief, /Update freshness:/);
+assert.match(capitalProjectUpdateBrief, /utm_campaign=capital_project_update_brief/);
+assert.match(html, /CAPITAL-PROJECT-WEBSITE-UPDATE-BRIEF\.md/);
 
 const jsonLd = html.match(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/);
 assert.ok(jsonLd, 'WebApplication structured data is present');

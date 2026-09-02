@@ -22,6 +22,8 @@ For a coordinated launch, move, expansion, or rebrand, use the [Local Business L
 
 When a local service business already has a working booking, ordering, or membership platform, use the [Local Service Discovery-to-Booking Measurement Card](LOCAL-SERVICE-DISCOVERY-TO-BOOKING-MEASUREMENT-CARD.md) to classify surface ownership, reconcile decision facts, test mobile/desktop/keyboard handoffs, separate discovery from confirmed outcomes, and preserve release and rollback evidence without pitching unnecessary platform replacement.
 
+When a renovation, expansion, move, or phased opening changes visitor information, use the [Capital Project Website Update Brief](CAPITAL-PROJECT-WEBSITE-UPDATE-BRIEF.md) to map owner-approved facts, publish dated milestones and operational impacts, preserve working registration or account systems, measure freshness separately from outcomes, and record the next review and rollback evidence.
+
 ## Sources
 
 - [ADA.gov small-entity compliance guide](https://www.ada.gov/resources/small-entity-compliance-guide/)
