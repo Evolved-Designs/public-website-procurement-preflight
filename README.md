@@ -18,6 +18,8 @@ Before pricing a large content move, use the [Large Website Migration Scope Esti
 
 After a location, team, service, price, policy, or platform change, use the [Service Website Operations Parity Checklist](SERVICE-WEBSITE-OPERATIONS-PARITY-CHECKLIST.md) to compare the owned site with its booking, ordering, or inquiry system; identify material conflicts; test the visitor handoff; and assign measurable corrections without overstating clicks as completed transactions.
 
+For a coordinated launch, move, expansion, or rebrand, use the [Local Business Launch and Rebrand Rollout Checklist](LOCAL-BUSINESS-LAUNCH-REBRAND-ROLLOUT-CHECKLIST.md) to assign controlling sources, inventory owned and operational surfaces, pass five release gates, sequence the first 72 hours, and preserve measurable day-7 and day-30 evidence.
+
 ## Sources
 
 - [ADA.gov small-entity compliance guide](https://www.ada.gov/resources/small-entity-compliance-guide/)
