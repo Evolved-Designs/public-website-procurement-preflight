@@ -9,6 +9,7 @@ const aiSearchChecklist = await readFile(new URL('../AI-SEARCH-PROGRAM-RFP-REQUI
 const migrationEstimator = await readFile(new URL('../LARGE-WEBSITE-MIGRATION-SCOPE-ESTIMATOR.md', import.meta.url), 'utf8');
 const buyerKit = await readFile(new URL('../WEBSITE-PROCUREMENT-BUYER-KIT.md', import.meta.url), 'utf8');
 const operationsParity = await readFile(new URL('../SERVICE-WEBSITE-OPERATIONS-PARITY-CHECKLIST.md', import.meta.url), 'utf8');
+const discoveryBookingCard = await readFile(new URL('../LOCAL-SERVICE-DISCOVERY-TO-BOOKING-MEASUREMENT-CARD.md', import.meta.url), 'utf8');
 const migrationTool = await readFile(new URL('../tools/migration-scope-estimator.mjs', import.meta.url), 'utf8');
 
 assert.match(html, /<h1[^>]*>Make the hard decisions visible/);
@@ -37,6 +38,7 @@ assert.match(aiSearchChecklist, /utm_campaign=ai_search_rfp_checklist/);
 assert.match(readme, /Large Website Migration Scope Estimator/);
 assert.match(readme, /Website Procurement Buyer Kit/);
 assert.match(readme, /Service Website Operations Parity Checklist/);
+assert.match(readme, /Local Service Discovery-to-Booking Measurement Card/);
 assert.match(migrationEstimator, /full-population automated checks/);
 assert.match(migrationEstimator, /utm_campaign=large_site_migration_estimator/);
 assert.match(migrationEstimator, /developers\.google\.com\/search\/docs\/crawling-indexing\/site-move-with-url-changes/);
@@ -63,11 +65,16 @@ assert.match(operationsParity, /Do not label a booking-link click as a completed
 assert.match(operationsParity, /developers\.google\.com\/search\/docs\/appearance\/structured-data\/local-business/);
 assert.match(operationsParity, /w3\.org\/WAI\/tutorials\/forms\/instructions/);
 assert.match(operationsParity, /utm_campaign=service_website_operations_parity_checklist/);
+assert.match(discoveryBookingCard, /source-and-ownership map/i);
+assert.match(discoveryBookingCard, /Do not call an outbound click a booking/);
+assert.match(discoveryBookingCard, /Release with rollback evidence/);
+assert.match(discoveryBookingCard, /utm_campaign=local_discovery_booking_handoff/);
 
 const jsonLd = html.match(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/);
 assert.ok(jsonLd, 'WebApplication structured data is present');
 assert.equal(JSON.parse(jsonLd[1])['@type'], 'WebApplication');
 
 console.log('Static checks passed.');
+
 
 
