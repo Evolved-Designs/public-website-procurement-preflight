@@ -20,11 +20,14 @@ After a location, team, service, price, policy, or platform change, use the [Ser
 
 For a coordinated launch, move, expansion, or rebrand, use the [Local Business Launch and Rebrand Rollout Checklist](LOCAL-BUSINESS-LAUNCH-REBRAND-ROLLOUT-CHECKLIST.md) to assign controlling sources, inventory owned and operational surfaces, pass five release gates, sequence the first 72 hours, and preserve measurable day-7 and day-30 evidence.
 
+When a local service business already has a working booking, ordering, or membership platform, use the [Local Service Discovery-to-Booking Measurement Card](LOCAL-SERVICE-DISCOVERY-TO-BOOKING-MEASUREMENT-CARD.md) to classify surface ownership, reconcile decision facts, test mobile/desktop/keyboard handoffs, separate discovery from confirmed outcomes, and preserve release and rollback evidence without pitching unnecessary platform replacement.
+
 ## Sources
 
 - [ADA.gov small-entity compliance guide](https://www.ada.gov/resources/small-entity-compliance-guide/)
 - [Section508.gov: Buy Accessible Products and Services](https://www.section508.gov/buy/)
 - [Section508.gov: Request Accessibility Information from Vendors](https://www.section508.gov/buy/request-accessibility-information/)
 - [Montgomery County, Virginia: RFP 27-05](https://montva.com/docs/default-source/purchasing-solicitations/2027/27-05_rfp_economic-development-website-redesign.pdf?sfvrsn=745244d0_2)
+
 
 
