@@ -51,6 +51,8 @@ For each surface, record:
 
 Classify aggregators and search extracts as discovery hints unless an authorized owner has explicitly made them controlling. A linked property-management feed may be authoritative for inventory without becoming authoritative for the property's launch status, brand narrative, office operations, or every policy.
 
+Route business and implementation inquiries separately from renter and resident workflows. A page labeled `Contact` is not automatically an appropriate business-inquiry route: inspect its stated purpose and fields before using it. Do not place a vendor message into a leasing, tour, application, resident-service, or maintenance form. When the property route is consumer-only, follow the property site's first-party owner or management identity to an organization-owned corporate route and use it only when that route explicitly welcomes parties interested in working with the team. Preserve the ownership link, intended recipient, purpose statement, and opt-out evidence with the outreach record.
+
 ## 3. Reconcile the lease-up decision fields
 
 Compare the approved value across every relevant surface. Do not silently choose whichever value appears most often.
@@ -222,6 +224,7 @@ Before work begins, ask the owner, manager, leasing operator, platform owner, ac
 - approved operating status and effective date;
 - controlling owner for each material fact;
 - property, provider, profile, portfolio, and campaign URLs;
+- approved renter, resident, and business-inquiry routes, with each route's intended purpose;
 - approved plan, availability, price, fee, concession, tour, and application language;
 - prohibited claims and required review;
 - test accounts or safe stopping points;
