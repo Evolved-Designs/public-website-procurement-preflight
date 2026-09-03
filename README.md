@@ -16,6 +16,7 @@ Before a pitch final, expansion-grant review, or public growth announcement, use
 - Opening a venue or changing galleries and inquiry routing: [Venue Website Inquiry-Routing QA Card](VENUE-WEBSITE-INQUIRY-ROUTING-QA-CARD.md)
 - Reconciling a nonprofit campaign, giving, volunteer, event, or contact handoff: [Nonprofit Supporter-Journey Handoff Checklist](NONPROFIT-SUPPORTER-JOURNEY-HANDOFF-CHECKLIST.md)
 - Preparing a multifamily lease-up or listing-feed handoff: [Multifamily Lease-Up Website and Listing-Feed Handoff Checklist](MULTIFAMILY-LEASE-UP-WEBSITE-AND-LISTING-FEED-HANDOFF-CHECKLIST.md)
+- Opening a home-builder community or changing floor-plan and inventory feeds: [Home-Builder Community Page and Inventory-Feed QA Card](HOME-BUILDER-COMMUNITY-PAGE-AND-FEED-QA-CARD.md)
 - Publishing renovation, expansion, move, or phased-opening updates: [Capital Project Website Update Brief](CAPITAL-PROJECT-WEBSITE-UPDATE-BRIEF.md)
 - Preparing or evaluating a website solicitation: [Website Procurement Buyer Kit](WEBSITE-PROCUREMENT-BUYER-KIT.md)
 
@@ -44,6 +45,8 @@ When a local service business already has a working booking, ordering, or member
 When a renovation, expansion, move, or phased opening changes visitor information, use the [Capital Project Website Update Brief](CAPITAL-PROJECT-WEBSITE-UPDATE-BRIEF.md) to map owner-approved facts, publish dated milestones and operational impacts, preserve working registration or account systems, measure freshness separately from outcomes, and record the next review and rollback evidence.
 
 For a new apartment community, phased opening, management transition, or material availability-feed change, use the [Multifamily Lease-Up Website and Listing-Feed Handoff Checklist](MULTIFAMILY-LEASE-UP-WEBSITE-AND-LISTING-FEED-HANDOFF-CHECKLIST.md) to assign fact owners, reconcile the property site with its designated inventory system, test prospect and resident journeys, separate discovery from confirmed leasing outcomes, and preserve privacy, accessibility, release, and rollback evidence without replacing a working property-management platform.
+
+When a home builder opens a community or changes plan, pricing, incentive, or move-in-ready inventory feeds, use the [Home-Builder Community Page and Inventory-Feed QA Card](HOME-BUILDER-COMMUNITY-PAGE-AND-FEED-QA-CARD.md) to assign controlling sources, catch duplicate or stale template text, preserve source IDs through inquiry handoffs, test buyer and accessibility journeys, and separate provider acceptance from qualified sales outcomes.
 
 After a venue opens, adds a space, refreshes its galleries, or changes its inquiry workflow, use the [Venue Website Inquiry-Routing QA Card](VENUE-WEBSITE-INQUIRY-ROUTING-QA-CARD.md) to reconcile public proof with gallery labels, carry the selected space into the inquiry record, test mobile and keyboard journeys, separate inquiry starts from verified outcomes, and preserve consent and rollback evidence without replacing a working booking system.
 
