@@ -20,6 +20,10 @@ Before a pitch final, expansion-grant review, or public growth announcement, use
 - Publishing renovation, expansion, move, or phased-opening updates: [Capital Project Website Update Brief](CAPITAL-PROJECT-WEBSITE-UPDATE-BRIEF.md)
 - Preparing or evaluating a website solicitation: [Website Procurement Buyer Kit](WEBSITE-PROCUREMENT-BUYER-KIT.md)
 
+Already have a live site? Choose the closest resource above, run only the checks that match your operation, and bring the unresolved items—not a generic rebuild brief—to a [no-obligation Evolved Designs fit check](https://evolveddesigns.net/contact-us/?utm_source=github&utm_medium=resource_hub&utm_campaign=preflight_self_selection&utm_content=start_menu). Include the resource name and one public URL so the first conversation stays bounded.
+
+Provider acceptance, page views, and link clicks are not leads, consent, meetings, or revenue. Count only an explicit inquiry from a verified non-client, then track its selected resource and next action separately.
+
 Need implementation help? Evolved Designs provides Waxahachie-focused website planning, integration, accessibility, local content, optimization, and support. [Review local web services](https://evolveddesigns.net/local-web-services/?utm_source=github&utm_medium=reference&utm_campaign=public_preflight_hub).
 
 ### Time-sensitive Texas solar resource
