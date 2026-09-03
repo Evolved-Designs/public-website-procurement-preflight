@@ -14,6 +14,7 @@ Before a pitch final, expansion-grant review, or public growth announcement, use
 - Launching, moving, expanding, or rebranding a local business: [Local Business Launch and Rebrand Rollout Checklist](LOCAL-BUSINESS-LAUNCH-REBRAND-ROLLOUT-CHECKLIST.md)
 - Reconciling a website with booking, ordering, or inquiry operations: [Service Website Operations Parity Checklist](SERVICE-WEBSITE-OPERATIONS-PARITY-CHECKLIST.md)
 - Opening a venue or changing galleries and inquiry routing: [Venue Website Inquiry-Routing QA Card](VENUE-WEBSITE-INQUIRY-ROUTING-QA-CARD.md)
+- Reconciling a nonprofit campaign, giving, volunteer, event, or contact handoff: [Nonprofit Supporter-Journey Handoff Checklist](NONPROFIT-SUPPORTER-JOURNEY-HANDOFF-CHECKLIST.md)
 - Preparing a multifamily lease-up or listing-feed handoff: [Multifamily Lease-Up Website and Listing-Feed Handoff Checklist](MULTIFAMILY-LEASE-UP-WEBSITE-AND-LISTING-FEED-HANDOFF-CHECKLIST.md)
 - Publishing renovation, expansion, move, or phased-opening updates: [Capital Project Website Update Brief](CAPITAL-PROJECT-WEBSITE-UPDATE-BRIEF.md)
 - Preparing or evaluating a website solicitation: [Website Procurement Buyer Kit](WEBSITE-PROCUREMENT-BUYER-KIT.md)
@@ -46,6 +47,8 @@ For a new apartment community, phased opening, management transition, or materia
 
 After a venue opens, adds a space, refreshes its galleries, or changes its inquiry workflow, use the [Venue Website Inquiry-Routing QA Card](VENUE-WEBSITE-INQUIRY-ROUTING-QA-CARD.md) to reconcile public proof with gallery labels, carry the selected space into the inquiry record, test mobile and keyboard journeys, separate inquiry starts from verified outcomes, and preserve consent and rollback evidence without replacing a working booking system.
 
+When a nonprofit campaign, event, volunteer program, mission team, facility goal, or giving path crosses the owned site and an external system, use the [Nonprofit Supporter-Journey Handoff Checklist](NONPROFIT-SUPPORTER-JOURNEY-HANDOFF-CHECKLIST.md) to assign fact owners, reconcile ten material fields, test approved synthetic journeys, verify provider and internal receipts separately, and measure completions without calling clicks donations or registrations.
+
 ## Sources
 
 - [ADA.gov small-entity compliance guide](https://www.ada.gov/resources/small-entity-compliance-guide/)
@@ -55,5 +58,6 @@ After a venue opens, adds a space, refreshes its galleries, or changes its inqui
 - [TDLR Residential Solar Retailers program](https://www.tdlr.texas.gov/residential-solar-retailers/)
 - [TDLR August 21, 2026 residential solar program update](https://www.tdlr.texas.gov/news/2026/08/21/update-on-residential-solar-retailers-program/)
 - [Texas Register adopted residential solar rules](https://www.sos.texas.gov/texreg/archive/June262026/Adopted%20Rules/16.ECONOMIC%20REGULATION.html)
+
 
 
