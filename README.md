@@ -6,6 +6,14 @@ The public deployment is retired without a replacement. This repository remains 
 
 ## Current planning resource
 
+### Start in 30 seconds
+
+- Defining requirements before talking with vendors: start with the [Website RFP Requirements Checklist](WEBSITE-RFP-REQUIREMENTS-CHECKLIST.md).
+- Comparing proposals already received: use the [Website Vendor Evaluation Scorecard](WEBSITE-VENDOR-EVALUATION-SCORECARD.md).
+- Checking a live website-to-booking, ordering, inquiry, or support handoff: choose the closest operational card under “Choose a starting point” below.
+
+Bring the selected resource name and one public URL to a [bounded Evolved Designs fit check](https://evolveddesigns.net/contact-us/?utm_source=github&utm_medium=resource_hub&utm_campaign=buyer_intent_router&utm_content=thirty_second_chooser). No customer data is needed. These are planning aids, not legal or procurement advice or promises of accessibility conformance, search placement, leads, sales, or revenue.
+
 Before a pitch final, expansion-grant review, or public growth announcement, use the [Business Pitch-to-Website Proof Card](BUSINESS-PITCH-TO-WEBSITE-PROOF-CARD.md) to map ten public claims to owner-approved evidence and working visitor paths, test three synthetic journeys across mobile, desktop, and keyboard, pass six release gates, and keep discovery, action starts, verified completions, and qualified responses separate.
 
 ### Featured service-operations resource
