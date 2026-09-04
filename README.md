@@ -13,6 +13,7 @@ Before a pitch final, expansion-grant review, or public growth announcement, use
 
 - Launching, moving, expanding, or rebranding a local business: [Local Business Launch and Rebrand Rollout Checklist](LOCAL-BUSINESS-LAUNCH-REBRAND-ROLLOUT-CHECKLIST.md)
 - Reconciling a website with booking, ordering, or inquiry operations: [Service Website Operations Parity Checklist](SERVICE-WEBSITE-OPERATIONS-PARITY-CHECKLIST.md)
+- Proving a public form reached its provider and internal owner: [Website Contact-Form Delivery Verification Card](WEBSITE-CONTACT-FORM-DELIVERY-VERIFICATION-CARD.md)
 - Promoting dated restaurant events across menu, order, and contact systems: [Restaurant Event-to-Order and Contact Handoff QA Card](RESTAURANT-EVENT-TO-ORDER-AND-CONTACT-HANDOFF-QA-CARD.md)
 - Opening a venue or changing galleries and inquiry routing: [Venue Website Inquiry-Routing QA Card](VENUE-WEBSITE-INQUIRY-ROUTING-QA-CARD.md)
 - Reconciling a nonprofit campaign, giving, volunteer, event, or contact handoff: [Nonprofit Supporter-Journey Handoff Checklist](NONPROFIT-SUPPORTER-JOURNEY-HANDOFF-CHECKLIST.md)
@@ -42,6 +43,8 @@ For an AEO, GEO, or AI-search visibility procurement, use the [AI Search Program
 Before pricing a large content move, use the [Large Website Migration Scope Estimator](LARGE-WEBSITE-MIGRATION-SCOPE-ESTIMATOR.md) to inventory pages, documents, structured records, and media; calculate a transparent manual acceptance sample; score migration risk separately from volume; and require full-population automated evidence for deterministic checks.
 
 After a location, team, service, price, policy, or platform change, use the [Service Website Operations Parity Checklist](SERVICE-WEBSITE-OPERATIONS-PARITY-CHECKLIST.md) to compare the owned site with its booking, ordering, or inquiry system; identify material conflicts; test the visitor handoff; and assign measurable corrections without overstating clicks as completed transactions.
+
+When a public inquiry, quote, volunteer, sponsor, event, or support form looks complete but delivery is uncertain, use the [Website Contact-Form Delivery Verification Card](WEBSITE-CONTACT-FORM-DELIVERY-VERIFICATION-CARD.md) to verify stable field state, stop at human challenges, retain provider acceptance evidence, and reconcile the separate internal receipt without calling a button click a lead.
 
 For a coordinated launch, move, expansion, or rebrand, use the [Local Business Launch and Rebrand Rollout Checklist](LOCAL-BUSINESS-LAUNCH-REBRAND-ROLLOUT-CHECKLIST.md) to assign controlling sources, inventory owned and operational surfaces, pass five release gates, sequence the first 72 hours, and preserve measurable day-7 and day-30 evidence.
 

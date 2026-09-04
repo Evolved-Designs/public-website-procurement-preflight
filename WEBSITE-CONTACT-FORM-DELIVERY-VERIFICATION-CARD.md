@@ -1,0 +1,82 @@
+# Website Contact-Form Delivery Verification Card
+
+Use this card when a public inquiry, quote, volunteer, sponsor, event, or support form appears to work but the organization cannot prove that a completed message reached its destination.
+
+The goal is a small delivery check. It does not justify bypassing a CAPTCHA, collecting real visitor data, replacing a working provider, or claiming that a click became a lead.
+
+## Map the delivery chain
+
+Name the owner and evidence for every applicable step before changing the form.
+
+| Step | Owner | Expected evidence | Checked at | Result |
+| --- | --- | --- | --- | --- |
+| Public page and intended form |  | Correct organization, purpose, and URL |  |  |
+| Required-field instructions |  | Visible labels, errors, and privacy notice |  |  |
+| Browser field state |  | Exact approved test values remain before submit |  |  |
+| Human-verification step |  | Visible challenge or documented provider rule |  |  |
+| Provider acceptance |  | Unique success state, response, or submission ID |  |  |
+| Internal routing |  | Correct inbox, CRM, queue, or assigned owner |  |  |
+| Internal receipt |  | Approved test located with matching timestamp or ID |  |  |
+| Reply path |  | Authorized owner can respond from the intended channel |  |  |
+
+Mark each row `pass`, `fail`, `blocked`, or `not applicable`. A form is not delivery-ready while a required owner or evidence row is blank.
+
+## Run one authorized synthetic test
+
+Use only owner-approved synthetic data. Do not submit a sales message, personal information, payment data, health information, or a real customer request as a test.
+
+1. Open a fresh private test context and wait for the form to finish loading.
+2. Enter the approved values using normal keyboard interaction.
+3. Immediately before submit, verify every required field still contains the exact intended value. Dynamic forms can re-render and clear fields after they first appear.
+4. Activate the normal submit control once.
+5. If a CAPTCHA or provider verification challenge appears, stop. Record `blocked` and arrange an authorized human test; do not read, synthesize, solve, or bypass the challenge.
+6. If no challenge appears, retain a unique provider success state, accepted response, or submission identifier and timestamp.
+7. Ask the authorized internal owner to locate the same test by timestamp or identifier. Keep the provider response and internal receipt as separate evidence.
+
+## Classify the result honestly
+
+| Observed result | Classification | Next action |
+| --- | --- | --- |
+| Fields cleared before submit | Failed browser state | Wait for stable loading; retest keyboard input without submitting again until values persist |
+| Required-field error after populated-looking fields | Failed controlled input | Verify the form's actual field values and supported input events |
+| CAPTCHA appears after submit | Blocked human-verification step | Stop automation; schedule one authorized human test |
+| Button clicked, no provider response or success state | Unverified | Do not call it sent; inspect the provider path and retry only after the cause is known |
+| Provider accepted, internal destination empty | Failed internal routing | Trace notification, spam, CRM, webhook, or assignment configuration |
+| Provider accepted and matching internal receipt found | Delivered synthetic test | Record evidence and remove the test record under the approved retention rule |
+
+Provider acceptance, page text, analytics traffic, and internal receipt are different facts. Count an inquiry or lead only when a real person intentionally submits it and the organization is authorized to process it.
+
+## Check accessibility and recovery
+
+- Required fields have persistent labels and instructions.
+- Errors identify the affected field in text and are announced to assistive technology.
+- Keyboard focus reaches fields, verification, submit, and the resulting status.
+- The status does not depend on color alone.
+- A failed submit preserves appropriate entered values unless policy requires clearing them.
+- The organization has a published alternative contact path for people who cannot complete the form.
+- The owner can disable or roll back a broken form without removing every contact route.
+
+## Record the bounded result
+
+```text
+Organization and form URL:
+Form purpose:
+Checked at:
+Approved synthetic test reference:
+Pre-submit exact-field check passed / failed:
+Human-verification state:
+Provider acceptance reference:
+Internal receipt reference:
+Accessibility checks passed / failed:
+Unresolved owner and next action:
+Next review:
+Rollback reference:
+```
+
+Need help isolating a delivery gap? Bring this completed card and one public form URL to a [no-obligation Evolved Designs fit check](https://evolveddesigns.net/contact-us/?utm_source=github&utm_medium=resource&utm_campaign=contact_form_delivery_verification&utm_content=qa_card). The first conversation can stay limited to the failed step instead of assuming a rebuild.
+
+## References
+
+- [W3C Web Accessibility Initiative: Form instructions](https://www.w3.org/WAI/tutorials/forms/instructions/)
+- [W3C Web Accessibility Initiative: Form validation](https://www.w3.org/WAI/tutorials/forms/validation/)
+
