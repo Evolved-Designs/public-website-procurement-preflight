@@ -8,6 +8,12 @@ The public deployment is retired without a replacement. This repository remains 
 
 Before a pitch final, expansion-grant review, or public growth announcement, use the [Business Pitch-to-Website Proof Card](BUSINESS-PITCH-TO-WEBSITE-PROOF-CARD.md) to map ten public claims to owner-approved evidence and working visitor paths, test three synthetic journeys across mobile, desktop, and keyboard, pass six release gates, and keep discovery, action starts, verified completions, and qualified responses separate.
 
+### Featured vendor-selection resource
+
+Comparing website proposals? Use the [Website Vendor Evaluation Scorecard](WEBSITE-VENDOR-EVALUATION-SCORECARD.md?utm_source=github&utm_medium=resource_hub&utm_campaign=website_vendor_scorecard&utm_content=featured_resource) to run pass/fail gates, apply a published 100-point technical framework, require evidence for every score, review accessibility and security claims, ask consistent interview questions, and preserve a consensus record. Pair it with the RFP requirements checklist before release. It is a planning aid, not legal or procurement advice.
+
+Need a bounded, non-confidential working session to pressure-test the requirement or scoring logic? [Ask Evolved Designs for a fit check](https://evolveddesigns.net/contact-us/?utm_source=github&utm_medium=resource_hub&utm_campaign=website_vendor_scorecard&utm_content=featured_resource_cta).
+
 
 ## Choose a starting point
 
