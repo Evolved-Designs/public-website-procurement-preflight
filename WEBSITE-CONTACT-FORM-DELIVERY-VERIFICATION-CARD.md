@@ -33,6 +33,17 @@ Use only owner-approved synthetic data. Do not submit a sales message, personal 
 6. If no challenge appears, retain a unique provider success state, accepted response, or submission identifier and timestamp.
 7. Ask the authorized internal owner to locate the same test by timestamp or identifier. Keep the provider response and internal receipt as separate evidence.
 
+## Separate setup traffic from acceptance
+
+Many forms make several background requests around a submit. Classify each response by what it actually proves.
+
+- Analytics, performance, render, and telemetry requests prove only that browser activity was recorded.
+- A request for a form key, token, or CAPTCHA reload proves only that the provider prepared or challenged the submission.
+- A final save or submission response with a success status can support provider acceptance, but retain its timestamp or identifier and require the page's intended success state too.
+- A final save or submission response with a `4xx` or `5xx` status is a rejection even if an earlier setup request returned `200`.
+- An invisible CAPTCHA can appear only after the normal submit. Stop when it appears; do not retry rapidly, simulate a solution, or treat setup traffic as acceptance.
+- If no final provider response and no visible success state arrive, record one failed or unverified attempt, preserve an alternate organization contact route, and investigate before another submit.
+
 ## Classify the result honestly
 
 | Observed result | Classification | Next action |
