@@ -17,6 +17,7 @@ const venueInquiryRoutingCard = await readFile(new URL('../VENUE-WEBSITE-INQUIRY
 const nonprofitSupporterHandoff = await readFile(new URL('../NONPROFIT-SUPPORTER-JOURNEY-HANDOFF-CHECKLIST.md', import.meta.url), 'utf8');
 const restaurantEventOrderHandoff = await readFile(new URL('../RESTAURANT-EVENT-TO-ORDER-AND-CONTACT-HANDOFF-QA-CARD.md', import.meta.url), 'utf8');
 const contactFormDeliveryVerification = await readFile(new URL('../WEBSITE-CONTACT-FORM-DELIVERY-VERIFICATION-CARD.md', import.meta.url), 'utf8');
+const commercialContractorHandoff = await readFile(new URL('../COMMERCIAL-CONTRACTOR-CAPABILITY-TO-INQUIRY-HANDOFF-QA-CARD.md', import.meta.url), 'utf8');
 const migrationTool = await readFile(new URL('../tools/migration-scope-estimator.mjs', import.meta.url), 'utf8');
 
 assert.match(html, /<h1[^>]*>Make the hard decisions visible/);
@@ -53,6 +54,7 @@ assert.match(readme, /Venue Website Inquiry-Routing QA Card/);
 assert.match(readme, /Nonprofit Supporter-Journey Handoff Checklist/);
 assert.match(readme, /Restaurant Event-to-Order and Contact Handoff QA Card/);
 assert.match(readme, /Website Contact-Form Delivery Verification Card/);
+assert.match(readme, /Commercial Contractor Capability-to-Inquiry Handoff QA Card/);
 assert.match(migrationEstimator, /full-population automated checks/);
 assert.match(migrationEstimator, /utm_campaign=large_site_migration_estimator/);
 assert.match(migrationEstimator, /developers\.google\.com\/search\/docs\/crawling-indexing\/site-move-with-url-changes/);
@@ -114,6 +116,11 @@ assert.match(restaurantEventOrderHandoff, /Provider acceptance and internal rece
 assert.match(contactFormDeliveryVerification, /utm_campaign=contact_form_delivery_verification/);
 assert.match(contactFormDeliveryVerification, /do not read, synthesize, solve, or bypass the challenge/i);
 assert.match(html, /WEBSITE-CONTACT-FORM-DELIVERY-VERIFICATION-CARD\.md/);
+assert.match(html, /COMMERCIAL-CONTRACTOR-CAPABILITY-TO-INQUIRY-HANDOFF-QA-CARD\.md/);
+assert.match(commercialContractorHandoff, /Capability parity rate/);
+assert.match(commercialContractorHandoff, /Provider acceptance and internal receipt are separate checks/);
+assert.match(commercialContractorHandoff, /do not bypass it/i);
+assert.match(commercialContractorHandoff, /utm_campaign=commercial_contractor_inquiry_handoff/);
 
 const jsonLd = html.match(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/);
 assert.ok(jsonLd, 'WebApplication structured data is present');
