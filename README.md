@@ -14,6 +14,7 @@ Before a pitch final, expansion-grant review, or public growth announcement, use
 - Launching, moving, expanding, or rebranding a local business: [Local Business Launch and Rebrand Rollout Checklist](LOCAL-BUSINESS-LAUNCH-REBRAND-ROLLOUT-CHECKLIST.md)
 - Reconciling a website with booking, ordering, or inquiry operations: [Service Website Operations Parity Checklist](SERVICE-WEBSITE-OPERATIONS-PARITY-CHECKLIST.md)
 - Proving a public form reached its provider and internal owner: [Website Contact-Form Delivery Verification Card](WEBSITE-CONTACT-FORM-DELIVERY-VERIFICATION-CARD.md)
+- Carrying commercial contractor capability proof into a usable bid or inquiry route: [Commercial Contractor Capability-to-Inquiry Handoff QA Card](COMMERCIAL-CONTRACTOR-CAPABILITY-TO-INQUIRY-HANDOFF-QA-CARD.md)
 - Promoting dated restaurant events across menu, order, and contact systems: [Restaurant Event-to-Order and Contact Handoff QA Card](RESTAURANT-EVENT-TO-ORDER-AND-CONTACT-HANDOFF-QA-CARD.md)
 - Opening a venue or changing galleries and inquiry routing: [Venue Website Inquiry-Routing QA Card](VENUE-WEBSITE-INQUIRY-ROUTING-QA-CARD.md)
 - Reconciling a nonprofit campaign, giving, volunteer, event, or contact handoff: [Nonprofit Supporter-Journey Handoff Checklist](NONPROFIT-SUPPORTER-JOURNEY-HANDOFF-CHECKLIST.md)
