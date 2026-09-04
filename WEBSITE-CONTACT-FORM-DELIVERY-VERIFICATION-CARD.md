@@ -44,6 +44,19 @@ Many forms make several background requests around a submit. Classify each respo
 - An invisible CAPTCHA can appear only after the normal submit. Stop when it appears; do not retry rapidly, simulate a solution, or treat setup traffic as acceptance.
 - If no final provider response and no visible success state arrive, record one failed or unverified attempt, preserve an alternate organization contact route, and investigate before another submit.
 
+## Bound the submit and choose provider-specific proof
+
+Before an approved test, set one interaction count and a short response deadline. Capture the request method, exact provider endpoint, response status, response meaning, final URL, and visible status. End the run at the deadline even if the browser or provider remains busy.
+
+| Provider behavior | Minimum provider proof | Failure boundary |
+| --- | --- | --- |
+| Full-page form navigation | Successful final submit response, provider-specific success URL or flag, and visible confirmation | No final navigation or success state by the declared deadline |
+| AJAX or API-backed form | Exact submission endpoint, successful HTTP response, semantic accepted status in the response body, and visible confirmation | Telemetry only, a stalled request, an error status, or a body that does not say accepted |
+| Post-submit human verification | None until the authorized human completes it | Challenge appears after the one normal submit; stop without solving or clicking again |
+| Unknown or opaque provider | Unique provider reference plus an internally reconciled receipt | A button click, cleared form, thank-you copy already present before submit, or an unbounded browser wait |
+
+If the test process must be terminated, record the timeout, interaction count, last observed provider request, and whether acceptance was seen. Classify the result as `unverified`, even when the button was activated. Do not retry until the organization can prove the first attempt was not accepted or provides an idempotent test route.
+
 ## Classify the result honestly
 
 | Observed result | Classification | Next action |
@@ -74,10 +87,14 @@ Organization and form URL:
 Form purpose:
 Checked at:
 Approved synthetic test reference:
+Normal submit interactions allowed / observed:
+Execution deadline and termination reason:
 Pre-submit exact-field check passed / failed:
 Human-verification state:
+Provider endpoint, method, HTTP status, and response meaning:
 Provider acceptance reference:
 Internal receipt reference:
+Published alternate contact route:
 Accessibility checks passed / failed:
 Unresolved owner and next action:
 Next review:
@@ -90,4 +107,5 @@ Need help isolating a delivery gap? Bring this completed card and one public for
 
 - [W3C Web Accessibility Initiative: Form instructions](https://www.w3.org/WAI/tutorials/forms/instructions/)
 - [W3C Web Accessibility Initiative: Form validation](https://www.w3.org/WAI/tutorials/forms/validation/)
+
 

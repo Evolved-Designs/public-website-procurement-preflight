@@ -115,6 +115,11 @@ assert.match(restaurantEventOrderHandoff, /utm_campaign=restaurant_event_order_h
 assert.match(restaurantEventOrderHandoff, /Provider acceptance and internal receipt are separate checks/);
 assert.match(contactFormDeliveryVerification, /utm_campaign=contact_form_delivery_verification/);
 assert.match(contactFormDeliveryVerification, /do not read, synthesize, solve, or bypass the challenge/i);
+assert.match(contactFormDeliveryVerification, /Bound the submit and choose provider-specific proof/);
+assert.match(contactFormDeliveryVerification, /semantic accepted status in the response body/);
+assert.match(contactFormDeliveryVerification, /Do not retry until the organization can prove the first attempt was not accepted/);
+assert.match(readme, /Featured form-delivery resource/);
+assert.match(readme, /utm_campaign=contact_form_delivery_verification_feature/);
 assert.match(html, /WEBSITE-CONTACT-FORM-DELIVERY-VERIFICATION-CARD\.md/);
 assert.match(html, /COMMERCIAL-CONTRACTOR-CAPABILITY-TO-INQUIRY-HANDOFF-QA-CARD\.md/);
 assert.match(commercialContractorHandoff, /Capability parity rate/);
@@ -127,6 +132,7 @@ assert.ok(jsonLd, 'WebApplication structured data is present');
 assert.equal(JSON.parse(jsonLd[1])['@type'], 'WebApplication');
 
 console.log('Static checks passed.');
+
 
 
 

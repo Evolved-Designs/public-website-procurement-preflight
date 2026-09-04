@@ -14,6 +14,12 @@ When a location, team, service, price, policy, or platform changes, use the [Ser
 
 Have one public mismatch but not a clear correction boundary? [Ask Evolved Designs for a scoped parity fit check](https://evolveddesigns.net/contact-us/?utm_source=github&utm_medium=resource_hub&utm_campaign=service_website_operations_parity_feature&utm_content=featured_resource_cta). This is a planning aid, not a promise of search placement, accessibility conformance, bookings, orders, or revenue.
 
+### Featured form-delivery resource
+
+A submit click is not proof that a public form delivered anything. Use the [Website Contact-Form Delivery Verification Card](WEBSITE-CONTACT-FORM-DELIVERY-VERIFICATION-CARD.md?utm_source=github&utm_medium=resource_hub&utm_campaign=contact_form_delivery_verification_feature&utm_content=featured_resource) to set a bounded test, preserve exact field state, stop at post-submit human verification, distinguish navigation and API-backed acceptance, and reconcile the separate internal receipt before calling the path ready.
+
+Have a form that clears, stalls, or challenges only after submit? [Ask Evolved Designs for a bounded delivery fit check](https://evolveddesigns.net/contact-us/?utm_source=github&utm_medium=resource_hub&utm_campaign=contact_form_delivery_verification_feature&utm_content=featured_resource_cta). Bring the public URL and the last provider response or timestamp; no customer data is needed.
+
 ### Featured vendor-selection resource
 
 Comparing website proposals? Use the [Website Vendor Evaluation Scorecard](WEBSITE-VENDOR-EVALUATION-SCORECARD.md?utm_source=github&utm_medium=resource_hub&utm_campaign=website_vendor_scorecard&utm_content=featured_resource) to run pass/fail gates, apply a published 100-point technical framework, require evidence for every score, review accessibility and security claims, ask consistent interview questions, and preserve a consensus record. Pair it with the RFP requirements checklist before release. It is a planning aid, not legal or procurement advice.
@@ -82,6 +88,7 @@ When a nonprofit campaign, event, volunteer program, mission team, facility goal
 - [TDLR Residential Solar Retailers program](https://www.tdlr.texas.gov/residential-solar-retailers/)
 - [TDLR August 21, 2026 residential solar program update](https://www.tdlr.texas.gov/news/2026/08/21/update-on-residential-solar-retailers-program/)
 - [Texas Register adopted residential solar rules](https://www.sos.texas.gov/texreg/archive/June262026/Adopted%20Rules/16.ECONOMIC%20REGULATION.html)
+
 
 
 
