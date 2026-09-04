@@ -13,6 +13,7 @@ Before a pitch final, expansion-grant review, or public growth announcement, use
 
 - Launching, moving, expanding, or rebranding a local business: [Local Business Launch and Rebrand Rollout Checklist](LOCAL-BUSINESS-LAUNCH-REBRAND-ROLLOUT-CHECKLIST.md)
 - Reconciling a website with booking, ordering, or inquiry operations: [Service Website Operations Parity Checklist](SERVICE-WEBSITE-OPERATIONS-PARITY-CHECKLIST.md)
+- Promoting dated restaurant events across menu, order, and contact systems: [Restaurant Event-to-Order and Contact Handoff QA Card](RESTAURANT-EVENT-TO-ORDER-AND-CONTACT-HANDOFF-QA-CARD.md)
 - Opening a venue or changing galleries and inquiry routing: [Venue Website Inquiry-Routing QA Card](VENUE-WEBSITE-INQUIRY-ROUTING-QA-CARD.md)
 - Reconciling a nonprofit campaign, giving, volunteer, event, or contact handoff: [Nonprofit Supporter-Journey Handoff Checklist](NONPROFIT-SUPPORTER-JOURNEY-HANDOFF-CHECKLIST.md)
 - Preparing a multifamily lease-up or listing-feed handoff: [Multifamily Lease-Up Website and Listing-Feed Handoff Checklist](MULTIFAMILY-LEASE-UP-WEBSITE-AND-LISTING-FEED-HANDOFF-CHECKLIST.md)

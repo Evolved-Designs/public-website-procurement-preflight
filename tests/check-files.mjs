@@ -15,6 +15,7 @@ const texasSolarHandoff = await readFile(new URL('../TEXAS-RESIDENTIAL-SOLAR-WEB
 const businessPitchProofCard = await readFile(new URL('../BUSINESS-PITCH-TO-WEBSITE-PROOF-CARD.md', import.meta.url), 'utf8');
 const venueInquiryRoutingCard = await readFile(new URL('../VENUE-WEBSITE-INQUIRY-ROUTING-QA-CARD.md', import.meta.url), 'utf8');
 const nonprofitSupporterHandoff = await readFile(new URL('../NONPROFIT-SUPPORTER-JOURNEY-HANDOFF-CHECKLIST.md', import.meta.url), 'utf8');
+const restaurantEventOrderHandoff = await readFile(new URL('../RESTAURANT-EVENT-TO-ORDER-AND-CONTACT-HANDOFF-QA-CARD.md', import.meta.url), 'utf8');
 const migrationTool = await readFile(new URL('../tools/migration-scope-estimator.mjs', import.meta.url), 'utf8');
 
 assert.match(html, /<h1[^>]*>Make the hard decisions visible/);
@@ -49,6 +50,7 @@ assert.match(readme, /Texas Residential Solar Web and Sales Handoff Readiness Ch
 assert.match(readme, /Business Pitch-to-Website Proof Card/);
 assert.match(readme, /Venue Website Inquiry-Routing QA Card/);
 assert.match(readme, /Nonprofit Supporter-Journey Handoff Checklist/);
+assert.match(readme, /Restaurant Event-to-Order and Contact Handoff QA Card/);
 assert.match(migrationEstimator, /full-population automated checks/);
 assert.match(migrationEstimator, /utm_campaign=large_site_migration_estimator/);
 assert.match(migrationEstimator, /developers\.google\.com\/search\/docs\/crawling-indexing\/site-move-with-url-changes/);
@@ -105,6 +107,8 @@ assert.match(nonprofitSupporterHandoff, /Receipt integrity rate\*\* = internally
 assert.match(nonprofitSupporterHandoff, /Do not call a click a donation, registration, volunteer, application, or revenue outcome/);
 assert.match(nonprofitSupporterHandoff, /utm_campaign=nonprofit_supporter_journey_handoff/);
 assert.match(html, /NONPROFIT-SUPPORTER-JOURNEY-HANDOFF-CHECKLIST\.md/);
+assert.match(restaurantEventOrderHandoff, /utm_campaign=restaurant_event_order_handoff/);
+assert.match(restaurantEventOrderHandoff, /Provider acceptance and internal receipt are separate checks/);
 
 const jsonLd = html.match(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/);
 assert.ok(jsonLd, 'WebApplication structured data is present');
