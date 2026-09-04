@@ -8,6 +8,12 @@ The public deployment is retired without a replacement. This repository remains 
 
 Before a pitch final, expansion-grant review, or public growth announcement, use the [Business Pitch-to-Website Proof Card](BUSINESS-PITCH-TO-WEBSITE-PROOF-CARD.md) to map ten public claims to owner-approved evidence and working visitor paths, test three synthetic journeys across mobile, desktop, and keyboard, pass six release gates, and keep discovery, action starts, verified completions, and qualified responses separate.
 
+### Featured service-operations resource
+
+When a location, team, service, price, policy, or platform changes, use the [Service Website Operations Parity Checklist](SERVICE-WEBSITE-OPERATIONS-PARITY-CHECKLIST.md?utm_source=github&utm_medium=resource_hub&utm_campaign=service_website_operations_parity_feature&utm_content=featured_resource) to compare 12 material fields across the owned site and the system that accepts the next step. Test the highest-priority visitor path on mobile, desktop, and keyboard, fix material contradictions before promotion, and keep clicks separate from confirmed inquiries, bookings, or orders.
+
+Have one public mismatch but not a clear correction boundary? [Ask Evolved Designs for a scoped parity fit check](https://evolveddesigns.net/contact-us/?utm_source=github&utm_medium=resource_hub&utm_campaign=service_website_operations_parity_feature&utm_content=featured_resource_cta). This is a planning aid, not a promise of search placement, accessibility conformance, bookings, orders, or revenue.
+
 ### Featured vendor-selection resource
 
 Comparing website proposals? Use the [Website Vendor Evaluation Scorecard](WEBSITE-VENDOR-EVALUATION-SCORECARD.md?utm_source=github&utm_medium=resource_hub&utm_campaign=website_vendor_scorecard&utm_content=featured_resource) to run pass/fail gates, apply a published 100-point technical framework, require evidence for every score, review accessibility and security claims, ask consistent interview questions, and preserve a consensus record. Pair it with the RFP requirements checklist before release. It is a planning aid, not legal or procurement advice.
