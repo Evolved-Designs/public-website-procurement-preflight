@@ -34,6 +34,8 @@ You do not need a complete technical specification before the first conversation
 
 ## Talk it through
 
-If you would like help turning this brief into a sensible next step, [contact Evolved Designs for a friendly, no-pressure consultation](https://evolveddesigns.net/contact-us/?utm_source=github&utm_medium=resource&utm_campaign=website_goals_conversation_starter&utm_content=consultation). Share the non-confidential sentences above and one public URL; no audit or technical assessment is required.
+Prefer a public conversation? [Start a website goals conversation](https://github.com/Evolved-Designs/public-website-procurement-preflight/issues/new?template=website-goals-conversation.yml) using only public, non-confidential information.
+
+If you would like help turning this brief into a sensible next step privately, [contact Evolved Designs for a friendly, no-pressure consultation](https://evolveddesigns.net/contact-us/?utm_source=github&utm_medium=resource&utm_campaign=website_goals_conversation_starter&utm_content=consultation). Share the non-confidential sentences above and one public URL; no audit or technical assessment is required.
 
 This is a planning aid, not a quote, contract, guarantee of results, or legal, accessibility, security, or procurement advice.
