@@ -11,6 +11,7 @@ The public deployment is retired without a replacement. This repository remains 
 - Defining requirements before talking with vendors: start with the [Website RFP Requirements Checklist](WEBSITE-RFP-REQUIREMENTS-CHECKLIST.md).
 - Comparing proposals already received: use the [Website Vendor Evaluation Scorecard](WEBSITE-VENDOR-EVALUATION-SCORECARD.md).
 - Checking a live website-to-booking, ordering, inquiry, or support handoff: choose the closest operational card under “Choose a starting point” below.
+- Not sure what kind of website work you need yet: use the [Website Goals Conversation Starter](WEBSITE-GOALS-CONVERSATION-STARTER.md?utm_source=github&utm_medium=resource_hub&utm_campaign=website_goals_conversation_starter&utm_content=start_menu) to turn one business goal and one visitor action into a focused first conversation.
 
 Bring the selected resource name and one public URL to a [bounded Evolved Designs fit check](https://evolveddesigns.net/contact-us/?utm_source=github&utm_medium=resource_hub&utm_campaign=buyer_intent_router&utm_content=thirty_second_chooser). No customer data is needed. These are planning aids, not legal or procurement advice or promises of accessibility conformance, search placement, leads, sales, or revenue.
 
