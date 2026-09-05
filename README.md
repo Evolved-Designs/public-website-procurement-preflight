@@ -18,6 +18,12 @@ These materials are planning aids, not legal or procurement advice, and they do 
 
 ## Detailed planning resources
 
+### Featured venue inquiry resource
+
+Opening a venue, refreshing a gallery, or heading into a busy event season? Use the [Venue Website Inquiry-Routing QA Card](VENUE-WEBSITE-INQUIRY-ROUTING-QA-CARD.md?utm_source=github&utm_medium=resource_hub&utm_campaign=venue_inquiry_routing_feature&utm_content=featured_resource) to keep space names, photos, availability cues, and inquiry steps aligned. Start with one guest goal—ask about a date, compare spaces, or book a tour—and preserve the booking tools that already work.
+
+Want a second set of eyes on the business goal and visitor next step? [Talk it through with Evolved Designs in a friendly, no-pressure consultation](https://evolveddesigns.net/contact-us/?utm_source=github&utm_medium=resource_hub&utm_campaign=venue_inquiry_routing_feature&utm_content=featured_resource_cta). Bring one public URL; no customer data is needed. This is planning guidance, not a promise of inquiries, bookings, rankings, accessibility conformance, or revenue.
+
 Before a pitch final, expansion-grant review, or public growth announcement, use the [Business Pitch-to-Website Proof Card](BUSINESS-PITCH-TO-WEBSITE-PROOF-CARD.md) to map ten public claims to owner-approved evidence and working visitor paths, test three synthetic journeys across mobile, desktop, and keyboard, pass six release gates, and keep discovery, action starts, verified completions, and qualified responses separate.
 
 ### Featured service-operations resource
