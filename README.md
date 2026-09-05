@@ -1,19 +1,22 @@
-# Public Website Procurement Preflight
+# Website planning resources for owners and public teams
 
-A preserved browser-private decision check for public-service teams preparing, routing, or evaluating a website solicitation.
+Start with the business change you want your website to support: more of the right inquiries, smoother booking or ordering, clearer launch information, or a simpler vendor decision. This repository contains free planning resources from Evolved Designs to help you name that goal and prepare a focused conversation.
 
-The public deployment is retired without a replacement. This repository remains only as historical source and stores nothing.
+## Start with one business goal
 
-## Current planning resource
+In 30 seconds:
 
-### Start in 30 seconds
+- Name one change happening in the business.
+- Choose the one action you want a visitor to take.
+- Note what already works and must stay in place.
 
-- Defining requirements before talking with vendors: start with the [Website RFP Requirements Checklist](WEBSITE-RFP-REQUIREMENTS-CHECKLIST.md).
-- Comparing proposals already received: use the [Website Vendor Evaluation Scorecard](WEBSITE-VENDOR-EVALUATION-SCORECARD.md).
-- Checking a live website-to-booking, ordering, inquiry, or support handoff: choose the closest operational card under “Choose a starting point” below.
-- Not sure what kind of website work you need yet: use the [Website Goals Conversation Starter](WEBSITE-GOALS-CONVERSATION-STARTER.md?utm_source=github&utm_medium=resource_hub&utm_campaign=website_goals_conversation_starter&utm_content=start_menu) to turn one business goal and one visitor action into a focused first conversation.
+Not sure what belongs in scope? Use the [Website Goals Conversation Starter](WEBSITE-GOALS-CONVERSATION-STARTER.md?utm_source=github&utm_medium=resource_hub&utm_campaign=owner_goal_first&utm_content=conversation_starter).
 
-Bring the selected resource name and one public URL to a [bounded Evolved Designs fit check](https://evolveddesigns.net/contact-us/?utm_source=github&utm_medium=resource_hub&utm_campaign=buyer_intent_router&utm_content=thirty_second_chooser). No customer data is needed. These are planning aids, not legal or procurement advice or promises of accessibility conformance, search placement, leads, sales, or revenue.
+If it would help to talk the goal through, Evolved Designs offers a [friendly, no-pressure consultation](https://calendly.com/evolved-designs/30min?utm_source=github&utm_medium=resource_hub&utm_campaign=owner_goal_first&utm_content=consultation). Bring one public URL and the business change you are planning; no customer data is needed.
+
+These materials are planning aids, not legal or procurement advice, and they do not promise search placement, accessibility conformance, inquiries, bookings, sales, or revenue.
+
+## Detailed planning resources
 
 Before a pitch final, expansion-grant review, or public growth announcement, use the [Business Pitch-to-Website Proof Card](BUSINESS-PITCH-TO-WEBSITE-PROOF-CARD.md) to map ten public claims to owner-approved evidence and working visitor paths, test three synthetic journeys across mobile, desktop, and keyboard, pass six release gates, and keep discovery, action starts, verified completions, and qualified responses separate.
 
