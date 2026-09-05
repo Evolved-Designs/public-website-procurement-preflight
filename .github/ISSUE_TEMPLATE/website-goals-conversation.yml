@@ -1,0 +1,58 @@
+name: Start a website goals conversation
+description: Share one public, non-confidential website goal for a friendly first conversation.
+title: "[Website goal] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for starting with the business goal. This issue is public. Please do not include passwords, customer information, private analytics, contracts, or confidential plans. For a private conversation, use the [Evolved Designs contact page](https://evolveddesigns.net/contact-us/?utm_source=github&utm_medium=issue_form&utm_campaign=website_goals_conversation&utm_content=private_consultation).
+  - type: input
+    id: public_page
+    attributes:
+      label: Public website or page
+      description: Share one public URL if you have one.
+      placeholder: https://example.com
+    validations:
+      required: false
+  - type: dropdown
+    id: business_change
+    attributes:
+      label: What is changing?
+      options:
+        - Launching something new
+        - Introducing a new offer
+        - Moving or expanding
+        - Pursuing a growth goal
+        - Improving a business process
+        - Not sure yet
+    validations:
+      required: true
+  - type: textarea
+    id: visitor_action
+    attributes:
+      label: What should a visitor be able to do?
+      description: Describe one useful next step in everyday language.
+      placeholder: A visitor should be able to...
+    validations:
+      required: true
+  - type: textarea
+    id: protect
+    attributes:
+      label: What should stay in place?
+      description: Name any working tool, content, process, or relationship that should be protected.
+    validations:
+      required: false
+  - type: input
+    id: timing
+    attributes:
+      label: Timing or decision date
+      description: Share a public timing boundary if one matters.
+    validations:
+      required: false
+  - type: checkboxes
+    id: public_acknowledgement
+    attributes:
+      label: Public-information check
+      options:
+        - label: I understand this issue is public and have left out private or customer information.
+          required: true
