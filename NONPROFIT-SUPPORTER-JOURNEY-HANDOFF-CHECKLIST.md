@@ -99,7 +99,13 @@ Next fact-review date:
 Measurement owner and system of record:
 ```
 
-Need a bounded review of a nonprofit supporter path while preserving the systems that already work? [Ask Evolved Designs about a scoped supporter-journey check](https://evolveddesigns.net/contact-us/?utm_source=github&utm_medium=reference&utm_campaign=nonprofit_supporter_journey_handoff).
+Need help with a nonprofit supporter path while preserving the systems that already work? Evolved Designs designs and maintains websites.
+
+- [Start a private nonprofit website conversation](https://evolveddesigns.net/contact-us/?utm_source=github&utm_medium=reference&utm_campaign=nonprofit_supporter_journey_intake&utm_content=private_note)
+- [Book a 30-minute website call](https://calendly.com/evolved-designs/30min?utm_source=github&utm_medium=reference&utm_campaign=nonprofit_supporter_journey_intake&utm_content=call)
+- [Outline a non-confidential nonprofit website need](https://github.com/Evolved-Designs/Evolved-Designs/issues/new?template=nonprofit-supporter-journey.yml)
+
+The GitHub form is public. Do not post donor, volunteer, participant, applicant, client, or beneficiary records; credentials; private analytics; unpublished financial information; or private links. Use the private conversation route for work that cannot be described safely in public.
 
 This is an operational planning aid, not legal, tax, fundraising, privacy, or accessibility advice. It does not certify compliance or promise donations, registrations, volunteer participation, search placement, or revenue.
 
