@@ -18,6 +18,12 @@ These materials are planning aids, not legal or procurement advice, and they do 
 
 ## Detailed planning resources
 
+### Featured Azle event-week resource
+
+Preparing for Azle's September 12 Sting Fling weekend? Use the [Azle Sting Fling Weekend Website Update Checklist](AZLE-STING-FLING-WEEKEND-WEBSITE-UPDATE-CHECKLIST.md?utm_source=github&utm_medium=resource_hub&utm_campaign=azle_sting_fling_weekend_checklist&utm_content=featured_resource) to publish a bounded hours, event, menu, booking, ordering, ticket, or contact update and assign the after-event rollback before it goes live.
+
+Evolved Designs can handle a focused update or ongoing website care. [Start a private project conversation](https://evolveddesigns.net/contact-us/?utm_source=github&utm_medium=resource_hub&utm_campaign=azle_sting_fling_weekend_checklist&utm_content=featured_resource_cta) with the public URL and what needs to be live. This planning aid does not promise traffic, inquiries, bookings, rankings, sales, or revenue.
+
 ### Featured venue inquiry resource
 
 Opening a venue, refreshing a gallery, or heading into a busy event season? Use the [Venue Website Inquiry-Routing QA Card](VENUE-WEBSITE-INQUIRY-ROUTING-QA-CARD.md?utm_source=github&utm_medium=resource_hub&utm_campaign=venue_inquiry_routing_feature&utm_content=featured_resource) to keep space names, photos, availability cues, and inquiry steps aligned. Start with one guest goal—ask about a date, compare spaces, or book a tour—and preserve the booking tools that already work.
