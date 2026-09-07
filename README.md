@@ -2,7 +2,7 @@
 
 Start with the business change you want your website to support: more of the right inquiries, smoother booking or ordering, clearer launch information, or a simpler vendor decision. This repository contains free planning resources from Evolved Designs to help you name that goal and prepare a focused conversation.
 
-Already have a live or partly completed site? Start with [Finish an Existing Website](existing-website-completion.html?utm_source=github&utm_medium=resource_hub&utm_campaign=existing_website_completion&utm_content=featured_service). Evolved Designs can scope a focused completion phase that preserves the pages, tools, and workflows that already work. Bring the current platform, what must stay in place, and one customer action the next phase should support.
+Already have a live or partly completed site? Start with [Finish an Existing Website](FINISH-AN-EXISTING-WEBSITE.md?utm_source=github&utm_medium=resource_hub&utm_campaign=existing_website_completion&utm_content=featured_service). Evolved Designs can scope a focused completion phase that preserves the pages, tools, and workflows that already work. Bring the current platform, what must stay in place, and one customer action the next phase should support.
 
 ## Start with one business goal
 
